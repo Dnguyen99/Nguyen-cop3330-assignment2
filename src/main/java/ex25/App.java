@@ -1,8 +1,12 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Dylan Nguyen
+ */
+
 package ex25;
 import java.util.*;
 
-
-public class App {
+class Password {
     public static void passwordValidator(String input) {
         int n = input.length();
         boolean hasLower = false, hasUpper = false;
